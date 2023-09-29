@@ -1,0 +1,55 @@
+:root {
+    --mdgrey: #cdc8c8;
+    --dkgrey: #555;
+    --ltgrey: #f7f3f3;
+    --circle: teal;
+    --font: 'Sanchez', serif;
+}
+
+* {box-sizing: border-box;}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#topHeader {
+    background-color: var(--ltgrey);
+}
+
+.circle {
+    padding: 6px;
+    height: 60px;
+    width: 62px;
+    border-radius: 50%;
+    background-color: var(--circle);   
+}
+
+.h1-span {
+    font-family: var(--font);
+    color: white;
+}
+
+#heading {
+    font-size: 35px;
+}
+
+.wish, .account, .shop, .checkout {
+    padding-top: 0;
+}
+
+.middle-header {
+    margin-top: 50px;
+}
+
+.welcome-text {
+    margin-left: 90px;
+}
+
+.money {
+    margin-left: 200px;
+}
+
+.header-img {
+    width: 100%;
+}
