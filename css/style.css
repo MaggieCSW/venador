@@ -1,5 +1,5 @@
 :root {
-    --mdgrey: #cdc8c8;
+    --mdgrey: #dfdada;
     --dkgrey: #555;
     --ltgrey: #f7f3f3;
     --circle: teal;
@@ -35,7 +35,13 @@ body {
 }
 
 .wish, .account, .shop, .checkout {
-    padding-top: 0;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+#headLink {
+    font-size: 12px;
+    padding-top: 10px;
 }
 
 .middle-header {
@@ -50,6 +56,6 @@ body {
     margin-left: 200px;
 }
 
-.header-img {
-    width: 100%;
+.bottom-header {
+    background-color: var(--mdgrey);
 }
