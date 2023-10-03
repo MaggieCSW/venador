@@ -9,10 +9,10 @@
 * {box-sizing: border-box;}
 
 
-/* body {
+body {
     margin: 0;
     padding: 0;
-} */
+}
 
 #topHeader {
     background-color: var(--ltgrey);
@@ -43,7 +43,7 @@
 }
 
 .welcome-text {
-    margin-left: 50px;
+    margin-left: 180px;
 }
 
 #headLink {
@@ -55,21 +55,27 @@
     margin-top: 50px;
 }
 
-.mid-fashion-group {
+.mid-group {
     margin-left: 75px;
 }
 
-.search-div {
+
+
+/* .search-div {
     margin-right: 50px;
-    padding-right: 25px;
-}
+    padding-right: 35px;
+} */
 
 /* .welcome-text {
     padding-left: 10px;
 } */
 
 .money {
-    margin-left: 200px;
+    list-style-type: none;
+}
+
+.money-item {
+    margin-left: 3px;
 }
 
 .bottom-header {
