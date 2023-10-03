@@ -8,10 +8,11 @@
 
 * {box-sizing: border-box;}
 
-body {
+
+/* body {
     margin: 0;
     padding: 0;
-}
+} */
 
 #topHeader {
     background-color: var(--ltgrey);
@@ -34,9 +35,15 @@ body {
     font-size: 35px;
 }
 
+
+
 .wish, .account, .shop, .checkout {
     font-size: 12px;
     padding-top: 10px;
+}
+
+.welcome-text {
+    margin-left: 50px;
 }
 
 #headLink {
@@ -48,9 +55,18 @@ body {
     margin-top: 50px;
 }
 
-.welcome-text {
-    margin-left: 90px;
+.mid-fashion-group {
+    margin-left: 75px;
 }
+
+.search-div {
+    margin-right: 50px;
+    padding-right: 25px;
+}
+
+/* .welcome-text {
+    padding-left: 10px;
+} */
 
 .money {
     margin-left: 200px;
@@ -58,4 +74,16 @@ body {
 
 .bottom-header {
     background-color: var(--mdgrey);
+}
+
+.four-cards {
+    margin-top: 50px;
+}
+
+#cardOne, #cardTwo, #cardThree, #cardFour {
+    border-style: none;
+}
+
+#headingArrows {
+    margin-top: 30px;
 }
